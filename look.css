@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(sky.jpg);
+    background-size: cover;
+}
+
+#navbar{
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+ 
+ 
+}
+.navlogo{
+    height: 90%;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+.logo{
+    height: 90%;
+    width: 150px;
+    background-image: url("logod.png");
+    background-size: cover;
+    
+
+}
+.navdata{
+    padding-left: 25px;
+    padding-right:25px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navdata a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+.navsearch{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.searchadj{
+    align-items: center;
+}
+#searchbar{
+    height: 33px;
+    width: 150px;
+    color: beige;
+    border: 2px solid orangered;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#search{
+    border-style: inset;
+    height: 37px;
+    width: 100px;
+    background-color: orangered;
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+button:active{
+    border-color: blue;
+    background-color: blue;
+}
+
+.main{
+  height: 80vh;
+  width: 100vw;
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+
+  
+}
+.content1{
+   
+    height: 65%;
+    width: 50%;
+    
+    /* display: flex; */
+    /* position: absolute; */
+    /* margin-top: 30px; */
+    /* margin-left: 30px; */
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+
+.content2{
+    height: 80%;
+    width: 20%;
+    background-color: #00000099;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.heading{
+    font-size: 45px;
+    color: white;
+}
+#development{
+    font-weight: 700;
+    color: orangered;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+}
+#join{
+    height: 35px;
+    width: 100px;
+    background-color: orangered;
+    border-radius: 10px;
+}
+.log{
+    height: 40px;
+    width: 80%;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+    color: orangered;
+    
+}
+
+.inputs{
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+#email{
+    height: 40px;
+    width: 80%;
+    border-style: none;
+    border-bottom: 1px solid orangered ;
+    margin-top: 30px;
+    background-color: transparent;
+    color: beige;
+   
+}
+#password{
+    height: 40px;
+    width: 80%;
+    border-style: none;
+    border-bottom: 1px solid orangered;
+    margin-top: 30px;
+    background-color: transparent;
+    color: beige;
+   
+}
+#logit{
+    height: 40px;
+    width: 80%;
+    background-color: orangered;
+    border-radius: 10px;
+
+}
+.signup{
+    color: white;
+
+}
+
+.signup a{
+    text-decoration: none;
+    color: orangered;
+}
+.icons{
+    color: white;
+}
+.icons i{
+    color: white;
+
+}
+
+.navdata a:hover{
+    color: blue;
+    font-size: 20px;
+}
